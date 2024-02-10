@@ -6,8 +6,8 @@ using namespace std;
 // orientacao a objetos
 class Pessoa {
   public: 
-    Pessoa(string qualquerCoisa, int idade) {
-      this->nome = qualquerCoisa;
+    Pessoa(string nome, int idade) {
+      this->nome = nome;
       this->idade = idade;
     }
 
